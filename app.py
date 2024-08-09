@@ -8,7 +8,6 @@ import requests
 import yt_dlp
 import vlc
 
-# Load API key from config.json
 with open('config.json') as config_file:
     config = json.load(config_file)
     YOUTUBE_API_KEY = config.get('YOUTUBE_API_KEY')
@@ -74,7 +73,6 @@ class YouTufyApp(QWidget):
         self.setWindowIcon(QIcon('assets/YouTufy.png'))
         self.setGeometry(100, 100, 1200, 800)
         
-        # Set the font to Roboto
         font = QFont("Roboto", 10)
         self.setFont(font)
 
@@ -157,7 +155,6 @@ class YouTufyApp(QWidget):
 
         hbox_main = QHBoxLayout(self)
         
-        # Stacked widget for pages
         self.stacked_widget = QStackedWidget()
         
         # Home Page

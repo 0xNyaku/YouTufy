@@ -8,6 +8,13 @@ YouTufy is a free music streaming program that fetchs musics from YouTube.
 - No accounts
 - No ads
 
+# Usage
+
+- Open cmd in YouTufy's path
+- Enter the command: pip install -r requirements.txt
+- Launch the app with: python app.py
+- Enjoy!
+
 # Links
 
 [Twitter](https://twitter.com/realnyaku)
